@@ -4,7 +4,8 @@
 	"description": "# 09 Node.js Challenge: Professional README Generator",
 	"main": "index.js",
 	"scripts": {
-		"start": "node src/index.js"
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -19,5 +20,8 @@
 	"homepage": "https://github.com/faisal244/professional-readme-generator#readme",
 	"dependencies": {
 		"inquirer": "^8.2.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.16"
 	}
 }

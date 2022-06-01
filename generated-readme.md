@@ -50,4 +50,4 @@ npm run test
 
 Please contact me on my email: myemail@email.com
 
-Visit my GitHub profile [here](https://github.com/surajverma2587)
+Visit my GitHub profile [here](https://github.com/faisal244)

@@ -10,7 +10,7 @@ const questions = [
 	{
 		type: "input",
 		name: "projectTitle",
-		message: "Please enter is your project title:",
+		message: "Please enter your project title:",
 	},
 	{
 		type: "input",
@@ -25,23 +25,24 @@ const questions = [
 	{
 		type: "input",
 		name: "usage",
-		message: "Please enter usage information for your project:",
+		message: "Please enter project usage information:",
 	},
 	{
 		type: "list",
 		name: "licence",
-		message: "Please select a licence",
-		choices: ["MIT", "Apache", "GNU", "Creative Commons"],
+		message: "Please select a licence from the options below:",
+		choices: ["MIT", "Apache", "GNU", "BSD", "CreativeCommons"],
 	},
 	{
 		type: "input",
-		name: "contributions",
+		name: "contribution",
 		message: "Please enter any contribution guidelines for this project",
 	},
 	{
 		type: "input",
-		name: "testing",
-		message: "Please provide any relevant testing information",
+		name: "testingInfo",
+		message:
+			"Please provide any relevant testing instructions for this project",
 	},
 	{
 		type: "input",
@@ -57,60 +58,63 @@ const questions = [
 ];
 
 const generateReadme = (answers) => {
-	return `# ${answers.projectTitle} ![MIT](https://img.shields.io/badge/MIT-License-green)
+	return `# ${answers.projectTitle} ![MIT](https://img.shields.io/badge/${answers.licence}-License-green)
 
-    ## Table of Contents
+## Table of Contents
 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    ## Description
+## Description
 
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+${answers.description}
 
-    ## Installation
+## Installation
 
-    Please follow the instructions below:
+Please follow the instructions below:
 
-    \`\`\`
-    npm install
-    \`\`\`
+\`\`\`
+${answers.installation}
+\`\`\`
 
-    ## Usage
+## Usage
 
-    Please follow the instructions below:
+Please follow the instructions below:
 
-    \`\`\`
-    npm run start
-    \`\`\`
+\`\`\`
+${answers.usage}
+\`\`\`
 
-    ## License
+## License
 
-    MIT License
+${answers.licence} licence
 
-    ## Contributing
 
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+## Contributing
 
-    ## Tests
+${answers.contribution}
 
-    Please follow the instructions below:
+## Tests
 
-    \`\`\`
-    npm run test
-    \`\`\`
+Please follow the instructions below:
 
-    ## Questions
+\`\`\`
+${answers.testingInfo}
+\`\`\`
 
-    Please contact me on my email: myemail@email.com
+## Questions
 
-    Visit my GitHub profile [here](https://github.com/surajverma2587)
-    `;
+If you have any questions or feedback about this project, please feel free to reach out to me.
+
+Contact me by Email: [${answers.email}](mailto:${answers.email})
+
+Visit my GitHub profile: [${answers.githubProfile}/](${answers.githubProfile}/)
+`;
 };
 
 // 3. declare your init function to ask questions

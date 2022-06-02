@@ -4,6 +4,8 @@
 
 some description chat here
 
+## Installation
+
 ```
 git clone repository - [add git clone link here]
 cd professional-readme-generator
@@ -12,6 +14,8 @@ npm install
 ```
 
 ## Usage
+
+please execute the following command in your terminal
 
 ```
 npm run start
@@ -33,6 +37,8 @@ video chat:
 # Contact me
 
 - email me at enter my email here
+- Visit my Profile:
+- Connect with me on linkedin
 
 ## Your Task
 

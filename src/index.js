@@ -109,7 +109,7 @@ ${answers.testingInfo}
 
 ## Questions
 
-If you have any questions or feedback about this project, please feel free to reach out to me.
+If you have any questions or feedback about this project, please feel free to get in touch.
 
 Contact me by Email: [${answers.email}](mailto:${answers.email})
 
@@ -119,7 +119,7 @@ Visit my GitHub profile: [${answers.githubProfile}/](${answers.githubProfile}/)
 
 // 3. declare your init function to ask questions
 const init = async () => {
-	// get answers for first set of questions
+	// get answers from the user from the set of questions presented to them in terminal
 	const answers = await inquirer.prompt(questions);
 
 	// display answers
@@ -131,7 +131,7 @@ const init = async () => {
 	console.log(readme);
 
 	// write the file
-	utils.writeToFile("./foo.md", readme);
+	utils.writeToFile("./generated-readme.md", readme);
 };
 
 // 4. start your application

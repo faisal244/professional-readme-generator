@@ -1,54 +1,56 @@
-# TEST TITLE 1 ![MIT](https://img.shields.io/badge/MIT-License-green)
+#  ![MIT](https://img.shields.io/badge/MIT-License-green)
 
-    ## Table of Contents
+## Table of Contents
 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    ## Description
+## Description
 
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-    ## Installation
 
-    Please follow the instructions below:
+## Installation
 
-    ```
-    npm install
-    ```
+Please follow the instructions below:
 
-    ## Usage
+```
 
-    Please follow the instructions below:
+```
 
-    ```
-    npm run start
-    ```
+## Usage
 
-    ## License
+Please follow the instructions below:
 
-    MIT License
+```
 
-    ## Contributing
+```
 
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+## License
 
-    ## Tests
+MIT licence
 
-    Please follow the instructions below:
 
-    ```
-    npm run test
-    ```
+## Contributing
 
-    ## Questions
 
-    Please contact me on my email: myemail@email.com
 
-    Visit my GitHub profile [here](https://github.com/surajverma2587)
-    
+## Tests
+
+Please follow the instructions below:
+
+```
+
+```
+
+## Questions
+
+If you have any questions or feedback about this project, please feel free to get in touch.
+
+Contact me by Email: [](mailto:)
+
+Visit my GitHub profile: [/](/)

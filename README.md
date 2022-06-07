@@ -55,7 +55,7 @@ npm run start
 
 ## Screenshot
 
-![](/Users/Faisal/Coding Bootcamp/homework-projects/professional-readme-generator/src/img/readme-generator-screenshot.png)
+![](./src/img/readme-generator-screenshot.png)
 
 ## Video Demo
 

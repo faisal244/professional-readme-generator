@@ -7,3 +7,4 @@ const writeToFile = (filePath, data) => {
 };
 
 module.exports = { writeToFile };
+

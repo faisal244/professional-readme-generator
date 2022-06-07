@@ -1,4 +1,4 @@
-# Project Title ![MIT](https://img.shields.io/badge/MIT-License-green)
+# Professional Readme Generator ![MIT](https://img.shields.io/badge/MIT-License-green)
 
 ## Table of Contents
 
@@ -12,14 +12,16 @@
 
 ## Description
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions &mdash; this last part increases the likelihood that other developers will contribute to the success of the project.
+
+To strengthen my skills in Node.JS, I was tasked with creating a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). This allows any project creator to devote more time to working on their project, and ensures that they haven't missed any important information when working on a readme file to add to their repository.
 
 ## Installation
 
 Please follow the instructions below:
 
 ```
-npm install
+git clone git@github.com:faisal244/professional-readme-generator.git
 ```
 
 ## Usage
@@ -32,22 +34,27 @@ npm run start
 
 ## License
 
-MIT License
+MIT licence
+
 
 ## Contributing
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+```
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, libero praesentium! Debitis eos aliquid facilis vel quaerat labore animi. Iusto.
+```
 
 ## Tests
 
 Please follow the instructions below:
 
 ```
-npm run test
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, libero praesentium! Debitis eos aliquid facilis vel quaerat labore animi. Iusto.
 ```
 
 ## Questions
 
-Please contact me on my email: myemail@email.com
+If you have any questions or feedback about this project, please feel free to get in touch.
 
-Visit my GitHub profile [here](https://github.com/faisal244)
+Contact me by Email: [m.faisal244@gmail.com](mailto:m.faisal244@gmail.com)
+
+Visit my GitHub profile: [www.https://github.com/faisal244/](www.https://github.com/faisal244/)

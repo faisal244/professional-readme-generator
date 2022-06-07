@@ -105,3 +105,6 @@ dist
 .vscode/settings.json
 .DS_Store
 notes.md
+.idea/vcs.xml
+.idea/professional-readme-generator.iml
+.idea/modules.xml
